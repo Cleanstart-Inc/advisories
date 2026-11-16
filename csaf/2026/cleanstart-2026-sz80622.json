@@ -16,7 +16,7 @@
     },
     "title": "CVE-2019-5021 in CleanStart images (CLEANSTART-2026-SZ80622)",
     "tracking": {
-      "current_release_date": "2026-11-15T18:22:51Z",
+      "current_release_date": "2026-11-16T17:28:06Z",
       "id": "CLEANSTART-2026-SZ80622",
       "initial_release_date": "2026-11-10T16:11:31Z",
       "revision_history": [
@@ -149,19 +149,39 @@
           "date": "2026-11-15T18:22:51Z",
           "number": "26",
           "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-16T17:26:47Z",
+          "number": "27",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-16T17:27:24Z",
+          "number": "28",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-16T17:27:35Z",
+          "number": "29",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-16T17:28:06Z",
+          "number": "30",
+          "summary": "Status or product set changed."
         }
       ],
       "status": "final",
-      "version": "26"
+      "version": "30"
     }
   },
   "product_tree": {
     "full_product_names": [
       {
-        "name": "pkg:oci/ct2-s2-rebuild@sha256%3A91af5a0797fe65430b940e54ae204d3e8474f6282a4cc6ac8760968f805bec43",
-        "product_id": "CSAFPID-IMG-19c402646022",
+        "name": "pkg:oci/ct2-s2-rebuild@sha256%3A8dbc33f843ba6138165d9f521bf90240636dd3f7b5cf5f66e5b089ad58118557",
+        "product_id": "CSAFPID-IMG-04bc3006127f",
         "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A91af5a0797fe65430b940e54ae204d3e8474f6282a4cc6ac8760968f805bec43"
+          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A8dbc33f843ba6138165d9f521bf90240636dd3f7b5cf5f66e5b089ad58118557"
         }
       },
       {
@@ -179,24 +199,24 @@
         }
       },
       {
-        "name": "pkg:oci/ct2-s2-rebuild@sha256%3A6f90264a53339551b5b9f767df599d7aaadcbfd452d357015053c99e92e087ba",
-        "product_id": "CSAFPID-IMG-7c26e91d16f6",
+        "name": "pkg:oci/ct2-s2-rebuild@sha256%3Ab2004b79614bcfc9e89287cccde6c9a65dc33b86f6b5f399dc006a0683f1e1a8",
+        "product_id": "CSAFPID-IMG-6fad38734d93",
         "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A6f90264a53339551b5b9f767df599d7aaadcbfd452d357015053c99e92e087ba"
+          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3Ab2004b79614bcfc9e89287cccde6c9a65dc33b86f6b5f399dc006a0683f1e1a8"
         }
       },
       {
-        "name": "pkg:oci/ct2-s2-rebuild@sha256%3A91fd3e5901c7c2148d86598b272ecd15c2bcbe1ded0daac4e8d7ee0089c0b477",
-        "product_id": "CSAFPID-IMG-d490ac8e504f",
+        "name": "pkg:oci/ct2-s2-rebuild@sha256%3Aa9486156bf591e54444c46fb083538c167ff37be99f5a4345253b02324ccdece",
+        "product_id": "CSAFPID-IMG-82e8e3992851",
         "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A91fd3e5901c7c2148d86598b272ecd15c2bcbe1ded0daac4e8d7ee0089c0b477"
+          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3Aa9486156bf591e54444c46fb083538c167ff37be99f5a4345253b02324ccdece"
         }
       },
       {
-        "name": "pkg:oci/ct2-s2-rebuild@sha256%3Aaaf36c6d75ad427bab38434c0a50582994edd0d848c8e63abbc446b93fd75f64",
-        "product_id": "CSAFPID-IMG-f4ac1adda313",
+        "name": "pkg:oci/ct2-s2-rebuild@sha256%3A7a75054252c61f55107898a77798902db675753638468a7061ec98d9580d9093",
+        "product_id": "CSAFPID-IMG-8c81385c8ec3",
         "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3Aaaf36c6d75ad427bab38434c0a50582994edd0d848c8e63abbc446b93fd75f64"
+          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A7a75054252c61f55107898a77798902db675753638468a7061ec98d9580d9093"
         }
       },
       {
@@ -218,29 +238,47 @@
       {
         "category": "default_component_of",
         "full_product_name": {
-          "name": "cleanstart-baselayout-data 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A6f90264a53339551b5b9f767df599d7aaadcbfd452d357015053c99e92e087ba",
-          "product_id": "CSAFPID-REL-0a5308355463"
-        },
-        "product_reference": "CSAFPID-PKG-18cf4326de62",
-        "relates_to_product_reference": "CSAFPID-IMG-7c26e91d16f6"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
-          "name": "cleanstart-baselayout-data 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A91fd3e5901c7c2148d86598b272ecd15c2bcbe1ded0daac4e8d7ee0089c0b477",
-          "product_id": "CSAFPID-REL-39b4ceb8c74b"
-        },
-        "product_reference": "CSAFPID-PKG-18cf4326de62",
-        "relates_to_product_reference": "CSAFPID-IMG-d490ac8e504f"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
-          "name": "cleanstart-baselayout 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A91fd3e5901c7c2148d86598b272ecd15c2bcbe1ded0daac4e8d7ee0089c0b477",
-          "product_id": "CSAFPID-REL-66287fb53ac9"
+          "name": "cleanstart-baselayout 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A7a75054252c61f55107898a77798902db675753638468a7061ec98d9580d9093",
+          "product_id": "CSAFPID-REL-0c1b3c811c05"
         },
         "product_reference": "CSAFPID-PKG-474d965740c6",
-        "relates_to_product_reference": "CSAFPID-IMG-d490ac8e504f"
+        "relates_to_product_reference": "CSAFPID-IMG-8c81385c8ec3"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cleanstart-baselayout-data 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3Ab2004b79614bcfc9e89287cccde6c9a65dc33b86f6b5f399dc006a0683f1e1a8",
+          "product_id": "CSAFPID-REL-13cdf8a24ff1"
+        },
+        "product_reference": "CSAFPID-PKG-18cf4326de62",
+        "relates_to_product_reference": "CSAFPID-IMG-6fad38734d93"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cleanstart-baselayout-data 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A7a75054252c61f55107898a77798902db675753638468a7061ec98d9580d9093",
+          "product_id": "CSAFPID-REL-1c397603e555"
+        },
+        "product_reference": "CSAFPID-PKG-18cf4326de62",
+        "relates_to_product_reference": "CSAFPID-IMG-8c81385c8ec3"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cleanstart-baselayout-data 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3Aa9486156bf591e54444c46fb083538c167ff37be99f5a4345253b02324ccdece",
+          "product_id": "CSAFPID-REL-29fed23d4033"
+        },
+        "product_reference": "CSAFPID-PKG-18cf4326de62",
+        "relates_to_product_reference": "CSAFPID-IMG-82e8e3992851"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cleanstart-baselayout 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3Ab2004b79614bcfc9e89287cccde6c9a65dc33b86f6b5f399dc006a0683f1e1a8",
+          "product_id": "CSAFPID-REL-5d9b642ce834"
+        },
+        "product_reference": "CSAFPID-PKG-474d965740c6",
+        "relates_to_product_reference": "CSAFPID-IMG-6fad38734d93"
       },
       {
         "category": "default_component_of",
@@ -254,38 +292,20 @@
       {
         "category": "default_component_of",
         "full_product_name": {
-          "name": "cleanstart-baselayout-data 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A91af5a0797fe65430b940e54ae204d3e8474f6282a4cc6ac8760968f805bec43",
-          "product_id": "CSAFPID-REL-7fea1d8f4424"
+          "name": "cleanstart-baselayout 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A8dbc33f843ba6138165d9f521bf90240636dd3f7b5cf5f66e5b089ad58118557",
+          "product_id": "CSAFPID-REL-b45968b3898f"
         },
-        "product_reference": "CSAFPID-PKG-18cf4326de62",
-        "relates_to_product_reference": "CSAFPID-IMG-19c402646022"
+        "product_reference": "CSAFPID-PKG-474d965740c6",
+        "relates_to_product_reference": "CSAFPID-IMG-04bc3006127f"
       },
       {
         "category": "default_component_of",
         "full_product_name": {
-          "name": "cleanstart-baselayout 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A91af5a0797fe65430b940e54ae204d3e8474f6282a4cc6ac8760968f805bec43",
-          "product_id": "CSAFPID-REL-ab1b91b675c0"
+          "name": "cleanstart-baselayout 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3Aa9486156bf591e54444c46fb083538c167ff37be99f5a4345253b02324ccdece",
+          "product_id": "CSAFPID-REL-c4d0f917ea61"
         },
         "product_reference": "CSAFPID-PKG-474d965740c6",
-        "relates_to_product_reference": "CSAFPID-IMG-19c402646022"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
-          "name": "cleanstart-baselayout 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3Aaaf36c6d75ad427bab38434c0a50582994edd0d848c8e63abbc446b93fd75f64",
-          "product_id": "CSAFPID-REL-b2a03c64676c"
-        },
-        "product_reference": "CSAFPID-PKG-474d965740c6",
-        "relates_to_product_reference": "CSAFPID-IMG-f4ac1adda313"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
-          "name": "cleanstart-baselayout 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A6f90264a53339551b5b9f767df599d7aaadcbfd452d357015053c99e92e087ba",
-          "product_id": "CSAFPID-REL-b2f58e6a5e1e"
-        },
-        "product_reference": "CSAFPID-PKG-474d965740c6",
-        "relates_to_product_reference": "CSAFPID-IMG-7c26e91d16f6"
+        "relates_to_product_reference": "CSAFPID-IMG-82e8e3992851"
       },
       {
         "category": "default_component_of",
@@ -299,20 +319,20 @@
       {
         "category": "default_component_of",
         "full_product_name": {
-          "name": "cleanstart-baselayout-data 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3Aaaf36c6d75ad427bab38434c0a50582994edd0d848c8e63abbc446b93fd75f64",
-          "product_id": "CSAFPID-REL-d7c3c2055280"
-        },
-        "product_reference": "CSAFPID-PKG-18cf4326de62",
-        "relates_to_product_reference": "CSAFPID-IMG-f4ac1adda313"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
           "name": "cleanstart-baselayout-data 3.6.5-r3 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1044-jar@sha256:5113680e15993021720f504d474dedbacec8765d8882e9fac215f83d7bd451f6",
           "product_id": "CSAFPID-REL-d9806719f6ce"
         },
         "product_reference": "CSAFPID-PKG-18cf4326de62",
         "relates_to_product_reference": "CSAFPID-IMG-520d1c20edb7"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cleanstart-baselayout-data 3.6.5-r3 in pkg:oci/ct2-s2-rebuild@sha256%3A8dbc33f843ba6138165d9f521bf90240636dd3f7b5cf5f66e5b089ad58118557",
+          "product_id": "CSAFPID-REL-e369696367ce"
+        },
+        "product_reference": "CSAFPID-PKG-18cf4326de62",
+        "relates_to_product_reference": "CSAFPID-IMG-04bc3006127f"
       },
       {
         "category": "default_component_of",
@@ -343,17 +363,17 @@
       ],
       "product_status": {
         "fixed": [
-          "CSAFPID-REL-0a5308355463",
-          "CSAFPID-REL-39b4ceb8c74b",
-          "CSAFPID-REL-66287fb53ac9",
+          "CSAFPID-REL-0c1b3c811c05",
+          "CSAFPID-REL-13cdf8a24ff1",
+          "CSAFPID-REL-1c397603e555",
+          "CSAFPID-REL-29fed23d4033",
+          "CSAFPID-REL-5d9b642ce834",
           "CSAFPID-REL-6fbe3699a82f",
-          "CSAFPID-REL-7fea1d8f4424",
-          "CSAFPID-REL-ab1b91b675c0",
-          "CSAFPID-REL-b2a03c64676c",
-          "CSAFPID-REL-b2f58e6a5e1e",
+          "CSAFPID-REL-b45968b3898f",
+          "CSAFPID-REL-c4d0f917ea61",
           "CSAFPID-REL-c4dfa7db979a",
-          "CSAFPID-REL-d7c3c2055280",
           "CSAFPID-REL-d9806719f6ce",
+          "CSAFPID-REL-e369696367ce",
           "CSAFPID-REL-f53089357494"
         ]
       },
@@ -362,17 +382,17 @@
           "category": "vendor_fix",
           "details": "Fixed in the build shipped in this image (FIXED_BY_OUR_PATCH).",
           "product_ids": [
-            "CSAFPID-REL-0a5308355463",
-            "CSAFPID-REL-39b4ceb8c74b",
-            "CSAFPID-REL-66287fb53ac9",
+            "CSAFPID-REL-0c1b3c811c05",
+            "CSAFPID-REL-13cdf8a24ff1",
+            "CSAFPID-REL-1c397603e555",
+            "CSAFPID-REL-29fed23d4033",
+            "CSAFPID-REL-5d9b642ce834",
             "CSAFPID-REL-6fbe3699a82f",
-            "CSAFPID-REL-7fea1d8f4424",
-            "CSAFPID-REL-ab1b91b675c0",
-            "CSAFPID-REL-b2a03c64676c",
-            "CSAFPID-REL-b2f58e6a5e1e",
+            "CSAFPID-REL-b45968b3898f",
+            "CSAFPID-REL-c4d0f917ea61",
             "CSAFPID-REL-c4dfa7db979a",
-            "CSAFPID-REL-d7c3c2055280",
             "CSAFPID-REL-d9806719f6ce",
+            "CSAFPID-REL-e369696367ce",
             "CSAFPID-REL-f53089357494"
           ]
         }
@@ -383,14 +403,14 @@
           "date": "2026-11-09T19:04:17Z",
           "details": "not in CISA KEV as of 2026-11-10T01:47:11Z; EPSS 0.06263 (percentile 0.93615) as of 2026-11-09; point in time; re-issued when it changes",
           "product_ids": [
-            "CSAFPID-REL-0a5308355463",
-            "CSAFPID-REL-39b4ceb8c74b",
-            "CSAFPID-REL-66287fb53ac9",
-            "CSAFPID-REL-7fea1d8f4424",
-            "CSAFPID-REL-ab1b91b675c0",
-            "CSAFPID-REL-b2a03c64676c",
-            "CSAFPID-REL-b2f58e6a5e1e",
-            "CSAFPID-REL-d7c3c2055280"
+            "CSAFPID-REL-0c1b3c811c05",
+            "CSAFPID-REL-13cdf8a24ff1",
+            "CSAFPID-REL-1c397603e555",
+            "CSAFPID-REL-29fed23d4033",
+            "CSAFPID-REL-5d9b642ce834",
+            "CSAFPID-REL-b45968b3898f",
+            "CSAFPID-REL-c4d0f917ea61",
+            "CSAFPID-REL-e369696367ce"
           ]
         },
         {
