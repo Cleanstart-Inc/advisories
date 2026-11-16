@@ -1,0 +1,39 @@
+{
+ "built_from": {
+  "image-ref.txt": "8aa55899e8d714627d5d9acb740a796dc0666c5ecf44e87be484afc0d4a7dacb",
+  "run-metadata.json": "dd1abeed8bfafb0fc4a1d8a5149768ddac04ed19cf92a384a48ec4dd71679384",
+  "sbom.syft.json": "676c47a36c89a7bf99bd3ccc49663e973addef30a61a21b43c744add60b74b79",
+  "scanner_outputs/grype.json": "8bd64405c1f9ec09313e9bed3042db228681fe0a1a5dbca96bb1bb9861869eac"
+ },
+ "db": {
+  "built": "2026-11-14T12:50:05Z",
+  "location": "gs://clnstrt-emulation-materials/grype-db/vulnerability-db_v6.1.9_2026-11-11T07:20:41Z_1794660605.tar.zst",
+  "schema": "v6.1.9",
+  "sha256": "sha256:32ca412fed7910ca55a1a58cac6582a45e3bb9d6043e5270960064fe7218eab9"
+ },
+ "findings": [
+  {
+   "fixed_version": "Not Fixed",
+   "id": "CLEANSTART-2026-LM00136",
+   "installed_version": "1.3.2-r4",
+   "package": "zlib"
+  }
+ ],
+ "record": "scan-record/v1",
+ "release": "r20261114133240-cbb05b86",
+ "run_id": "ct2-s2-rebuild-20261114T161926Z",
+ "sbom_sha256": "sha256:c4e467a125e0693afc36d2701856e907e9b7cab1aade1d1c62cf8f8198b393b2",
+ "scan_status": "ok",
+ "scan_status_detail": "grype.json status='ok'",
+ "scanner": {
+  "binary_sha256": "sha256:d55ee2e71f9d66674a37f2afd3fcce87f3ad033730dc2f6d0fdf9c89b70b70e7",
+  "name": "grype",
+  "version": "cleanstart-bcb7f7176651"
+ },
+ "stream": {
+  "platform": "linux/amd64",
+  "repo": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild",
+  "variant": "prod"
+ },
+ "subject_digest": "sha256:795bc15e7dadcccf244cc4bdf91d5873a9ba92dc98f427133c18fc5be25667e0"
+}

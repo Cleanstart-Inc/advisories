@@ -16,7 +16,7 @@
     },
     "title": "CVE-2022-37434 in CleanStart images (CLEANSTART-2026-KF32567)",
     "tracking": {
-      "current_release_date": "2026-11-10T19:38:34Z",
+      "current_release_date": "2026-11-15T18:22:51Z",
       "id": "CLEANSTART-2026-KF32567",
       "initial_release_date": "2026-11-10T16:11:31Z",
       "revision_history": [
@@ -49,14 +49,121 @@
           "date": "2026-11-10T19:38:34Z",
           "number": "6",
           "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-12T15:01:19Z",
+          "number": "7",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-12T15:02:01Z",
+          "number": "8",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-12T15:02:18Z",
+          "number": "9",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-12T15:02:37Z",
+          "number": "10",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T04:55:30Z",
+          "number": "11",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T04:56:16Z",
+          "number": "12",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T04:56:36Z",
+          "number": "13",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T04:57:02Z",
+          "number": "14",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T09:52:10Z",
+          "number": "15",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T09:52:40Z",
+          "number": "16",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T09:52:52Z",
+          "number": "17",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T09:53:36Z",
+          "number": "18",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-15T08:15:45Z",
+          "number": "19",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-15T08:16:31Z",
+          "number": "20",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-15T08:17:20Z",
+          "number": "21",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-15T08:18:18Z",
+          "number": "22",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-15T17:40:02Z",
+          "number": "23",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-15T17:41:15Z",
+          "number": "24",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-15T17:41:26Z",
+          "number": "25",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-15T18:22:51Z",
+          "number": "26",
+          "summary": "Status or product set changed."
         }
       ],
       "status": "final",
-      "version": "6"
+      "version": "26"
     }
   },
   "product_tree": {
     "full_product_names": [
+      {
+        "name": "pkg:oci/ct2-s2-rebuild@sha256%3A91af5a0797fe65430b940e54ae204d3e8474f6282a4cc6ac8760968f805bec43",
+        "product_id": "CSAFPID-IMG-19c402646022",
+        "product_identification_helper": {
+          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A91af5a0797fe65430b940e54ae204d3e8474f6282a4cc6ac8760968f805bec43"
+        }
+      },
       {
         "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1044-jar@sha256:5113680e15993021720f504d474dedbacec8765d8882e9fac215f83d7bd451f6",
         "product_id": "CSAFPID-IMG-520d1c20edb7",
@@ -72,31 +179,24 @@
         }
       },
       {
-        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
-        "product_id": "CSAFPID-IMG-6063d2c9a40a",
+        "name": "pkg:oci/ct2-s2-rebuild@sha256%3A6f90264a53339551b5b9f767df599d7aaadcbfd452d357015053c99e92e087ba",
+        "product_id": "CSAFPID-IMG-7c26e91d16f6",
         "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
+          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A6f90264a53339551b5b9f767df599d7aaadcbfd452d357015053c99e92e087ba"
         }
       },
       {
-        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:90340e177182c1d161df2862d3dd1dbaf2bde0d0ba14ea6d6e58dbfa342cebb1",
-        "product_id": "CSAFPID-IMG-b501881d91ad",
+        "name": "pkg:oci/ct2-s2-rebuild@sha256%3A91fd3e5901c7c2148d86598b272ecd15c2bcbe1ded0daac4e8d7ee0089c0b477",
+        "product_id": "CSAFPID-IMG-d490ac8e504f",
         "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A90340e177182c1d161df2862d3dd1dbaf2bde0d0ba14ea6d6e58dbfa342cebb1?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
+          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A91fd3e5901c7c2148d86598b272ecd15c2bcbe1ded0daac4e8d7ee0089c0b477"
         }
       },
       {
-        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
-        "product_id": "CSAFPID-IMG-e78f72524c83",
+        "name": "pkg:oci/ct2-s2-rebuild@sha256%3Aaaf36c6d75ad427bab38434c0a50582994edd0d848c8e63abbc446b93fd75f64",
+        "product_id": "CSAFPID-IMG-f4ac1adda313",
         "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
-        }
-      },
-      {
-        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
-        "product_id": "CSAFPID-IMG-e9f7766365fd",
-        "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
+          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3Aaaf36c6d75ad427bab38434c0a50582994edd0d848c8e63abbc446b93fd75f64"
         }
       },
       {
@@ -111,29 +211,20 @@
       {
         "category": "default_component_of",
         "full_product_name": {
-          "name": "zlib 1.3.2-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
-          "product_id": "CSAFPID-REL-23b221b15e30"
+          "name": "zlib 1.3.2-r4 in pkg:oci/ct2-s2-rebuild@sha256%3A91fd3e5901c7c2148d86598b272ecd15c2bcbe1ded0daac4e8d7ee0089c0b477",
+          "product_id": "CSAFPID-REL-0f98f111d2de"
         },
         "product_reference": "CSAFPID-PKG-ef759febda75",
-        "relates_to_product_reference": "CSAFPID-IMG-6063d2c9a40a"
+        "relates_to_product_reference": "CSAFPID-IMG-d490ac8e504f"
       },
       {
         "category": "default_component_of",
         "full_product_name": {
-          "name": "zlib 1.3.2-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:90340e177182c1d161df2862d3dd1dbaf2bde0d0ba14ea6d6e58dbfa342cebb1",
-          "product_id": "CSAFPID-REL-7970e3a105bc"
+          "name": "zlib 1.3.2-r4 in pkg:oci/ct2-s2-rebuild@sha256%3A91af5a0797fe65430b940e54ae204d3e8474f6282a4cc6ac8760968f805bec43",
+          "product_id": "CSAFPID-REL-59a4d12b971d"
         },
         "product_reference": "CSAFPID-PKG-ef759febda75",
-        "relates_to_product_reference": "CSAFPID-IMG-b501881d91ad"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
-          "name": "zlib 1.3.2-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
-          "product_id": "CSAFPID-REL-86b1f03f9c10"
-        },
-        "product_reference": "CSAFPID-PKG-ef759febda75",
-        "relates_to_product_reference": "CSAFPID-IMG-e9f7766365fd"
+        "relates_to_product_reference": "CSAFPID-IMG-19c402646022"
       },
       {
         "category": "default_component_of",
@@ -147,11 +238,11 @@
       {
         "category": "default_component_of",
         "full_product_name": {
-          "name": "zlib 1.3.2-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
-          "product_id": "CSAFPID-REL-be8c7891d1dd"
+          "name": "zlib 1.3.2-r4 in pkg:oci/ct2-s2-rebuild@sha256%3Aaaf36c6d75ad427bab38434c0a50582994edd0d848c8e63abbc446b93fd75f64",
+          "product_id": "CSAFPID-REL-be4401395cf1"
         },
         "product_reference": "CSAFPID-PKG-ef759febda75",
-        "relates_to_product_reference": "CSAFPID-IMG-e78f72524c83"
+        "relates_to_product_reference": "CSAFPID-IMG-f4ac1adda313"
       },
       {
         "category": "default_component_of",
@@ -161,6 +252,15 @@
         },
         "product_reference": "CSAFPID-PKG-ef759febda75",
         "relates_to_product_reference": "CSAFPID-IMG-520d1c20edb7"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "zlib 1.3.2-r4 in pkg:oci/ct2-s2-rebuild@sha256%3A6f90264a53339551b5b9f767df599d7aaadcbfd452d357015053c99e92e087ba",
+          "product_id": "CSAFPID-REL-edc92bd24c09"
+        },
+        "product_reference": "CSAFPID-PKG-ef759febda75",
+        "relates_to_product_reference": "CSAFPID-IMG-7c26e91d16f6"
       }
     ]
   },
@@ -182,12 +282,12 @@
       ],
       "product_status": {
         "fixed": [
-          "CSAFPID-REL-23b221b15e30",
-          "CSAFPID-REL-7970e3a105bc",
-          "CSAFPID-REL-86b1f03f9c10",
+          "CSAFPID-REL-0f98f111d2de",
+          "CSAFPID-REL-59a4d12b971d",
           "CSAFPID-REL-89297288f6b9",
-          "CSAFPID-REL-be8c7891d1dd",
-          "CSAFPID-REL-e57bcc860675"
+          "CSAFPID-REL-be4401395cf1",
+          "CSAFPID-REL-e57bcc860675",
+          "CSAFPID-REL-edc92bd24c09"
         ]
       },
       "remediations": [
@@ -195,12 +295,12 @@
           "category": "vendor_fix",
           "details": "Fixed in the build shipped in this image (FIXED_BY_OUR_PATCH).",
           "product_ids": [
-            "CSAFPID-REL-23b221b15e30",
-            "CSAFPID-REL-7970e3a105bc",
-            "CSAFPID-REL-86b1f03f9c10",
+            "CSAFPID-REL-0f98f111d2de",
+            "CSAFPID-REL-59a4d12b971d",
             "CSAFPID-REL-89297288f6b9",
-            "CSAFPID-REL-be8c7891d1dd",
-            "CSAFPID-REL-e57bcc860675"
+            "CSAFPID-REL-be4401395cf1",
+            "CSAFPID-REL-e57bcc860675",
+            "CSAFPID-REL-edc92bd24c09"
           ]
         }
       ],
@@ -210,10 +310,10 @@
           "date": "2026-11-09T19:04:17Z",
           "details": "not in CISA KEV as of 2026-11-10T01:47:11Z; EPSS 0.19243 (percentile 0.97352) as of 2026-11-09; point in time; re-issued when it changes",
           "product_ids": [
-            "CSAFPID-REL-23b221b15e30",
-            "CSAFPID-REL-7970e3a105bc",
-            "CSAFPID-REL-86b1f03f9c10",
-            "CSAFPID-REL-be8c7891d1dd"
+            "CSAFPID-REL-0f98f111d2de",
+            "CSAFPID-REL-59a4d12b971d",
+            "CSAFPID-REL-be4401395cf1",
+            "CSAFPID-REL-edc92bd24c09"
           ]
         },
         {

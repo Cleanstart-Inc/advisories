@@ -16,7 +16,7 @@
     },
     "title": "CVE-2021-42380 in CleanStart images (CLEANSTART-2026-KL87781)",
     "tracking": {
-      "current_release_date": "2026-11-10T19:38:34Z",
+      "current_release_date": "2026-11-14T04:57:02Z",
       "id": "CLEANSTART-2026-KL87781",
       "initial_release_date": "2026-11-10T16:11:31Z",
       "revision_history": [
@@ -49,10 +49,50 @@
           "date": "2026-11-10T19:38:34Z",
           "number": "6",
           "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-12T15:01:19Z",
+          "number": "7",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-12T15:02:01Z",
+          "number": "8",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-12T15:02:18Z",
+          "number": "9",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-12T15:02:37Z",
+          "number": "10",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T04:55:30Z",
+          "number": "11",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T04:56:16Z",
+          "number": "12",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T04:56:36Z",
+          "number": "13",
+          "summary": "Status or product set changed."
+        },
+        {
+          "date": "2026-11-14T04:57:02Z",
+          "number": "14",
+          "summary": "Status or product set changed."
         }
       ],
       "status": "final",
-      "version": "6"
+      "version": "14"
     }
   },
   "product_tree": {
@@ -72,34 +112,6 @@
         }
       },
       {
-        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
-        "product_id": "CSAFPID-IMG-6063d2c9a40a",
-        "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
-        }
-      },
-      {
-        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:90340e177182c1d161df2862d3dd1dbaf2bde0d0ba14ea6d6e58dbfa342cebb1",
-        "product_id": "CSAFPID-IMG-b501881d91ad",
-        "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A90340e177182c1d161df2862d3dd1dbaf2bde0d0ba14ea6d6e58dbfa342cebb1?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
-        }
-      },
-      {
-        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
-        "product_id": "CSAFPID-IMG-e78f72524c83",
-        "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
-        }
-      },
-      {
-        "name": "us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
-        "product_id": "CSAFPID-IMG-e9f7766365fd",
-        "product_identification_helper": {
-          "purl": "pkg:oci/ct2-s2-rebuild@sha256%3A129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06?repository_url=us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation"
-        }
-      },
-      {
         "name": "ssl_client 1.38.0-r4",
         "product_id": "CSAFPID-PKG-0f1b8cea1eba",
         "product_identification_helper": {
@@ -111,13 +123,6 @@
         "product_id": "CSAFPID-PKG-37ab9c69390a",
         "product_identification_helper": {
           "purl": "pkg:apk/cleanstart/busybox@1.38.0-r4"
-        }
-      },
-      {
-        "name": "busybox 1.38.0-r5",
-        "product_id": "CSAFPID-PKG-4aa4cd6930f8",
-        "product_identification_helper": {
-          "purl": "pkg:apk/cleanstart/busybox@1.38.0-r5"
         }
       },
       {
@@ -141,47 +146,11 @@
       {
         "category": "default_component_of",
         "full_product_name": {
-          "name": "busybox 1.38.0-r5 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:129aa6eabd2be58c8da5dde35b41e947a3499facb228932124364fb98ac81f06",
-          "product_id": "CSAFPID-REL-29efde6b56e1"
-        },
-        "product_reference": "CSAFPID-PKG-4aa4cd6930f8",
-        "relates_to_product_reference": "CSAFPID-IMG-e9f7766365fd"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
-          "name": "busybox 1.38.0-r5 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:7e6dc1ac3eaf1430c5215d4b6d8a589fca0b1289ed0c1b6622f661b4685e846a",
-          "product_id": "CSAFPID-REL-6db1aa3253df"
-        },
-        "product_reference": "CSAFPID-PKG-4aa4cd6930f8",
-        "relates_to_product_reference": "CSAFPID-IMG-e78f72524c83"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
-          "name": "busybox 1.38.0-r5 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:90340e177182c1d161df2862d3dd1dbaf2bde0d0ba14ea6d6e58dbfa342cebb1",
-          "product_id": "CSAFPID-REL-9244d1bc9905"
-        },
-        "product_reference": "CSAFPID-PKG-4aa4cd6930f8",
-        "relates_to_product_reference": "CSAFPID-IMG-b501881d91ad"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
           "name": "busybox 1.38.0-r4 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-adv1037-findgrp@sha256:e6ec3037b780e9339b28d3f9ad014273a156a30189498cc00d4a58d6fcdd545a",
           "product_id": "CSAFPID-REL-9eb0d72f94f8"
         },
         "product_reference": "CSAFPID-PKG-37ab9c69390a",
         "relates_to_product_reference": "CSAFPID-IMG-570812731bb7"
-      },
-      {
-        "category": "default_component_of",
-        "full_product_name": {
-          "name": "busybox 1.38.0-r5 in us-central1-docker.pkg.dev/clnstrt-emulation/ct2-image-repo-emulation/ct2-s2-rebuild@sha256:4e919b8c90978d5287465dce8ed758018305e65fc2da60d7991d0e26e1f54ac4",
-          "product_id": "CSAFPID-REL-b50c5e8d73e0"
-        },
-        "product_reference": "CSAFPID-PKG-4aa4cd6930f8",
-        "relates_to_product_reference": "CSAFPID-IMG-6063d2c9a40a"
       },
       {
         "category": "default_component_of",
@@ -215,18 +184,14 @@
       "notes": [
         {
           "category": "description",
-          "text": "CVE-2021-42380: fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE | fixed in 1.34.0-r0; shipped 1.38.0-r5; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
+          "text": "CVE-2021-42380: fixed in 1.34.0-r0; shipped 1.38.0-r4; triage=FIXED_BY_OUR_PATCH; scan_completeness=COMPLETE",
           "title": "CleanStart position"
         }
       ],
       "product_status": {
         "fixed": [
           "CSAFPID-REL-23028d615d11",
-          "CSAFPID-REL-29efde6b56e1",
-          "CSAFPID-REL-6db1aa3253df",
-          "CSAFPID-REL-9244d1bc9905",
           "CSAFPID-REL-9eb0d72f94f8",
-          "CSAFPID-REL-b50c5e8d73e0",
           "CSAFPID-REL-bb8ce4f8bf05",
           "CSAFPID-REL-da748cfa1498"
         ]
@@ -237,28 +202,13 @@
           "details": "Fixed in the build shipped in this image (FIXED_BY_OUR_PATCH).",
           "product_ids": [
             "CSAFPID-REL-23028d615d11",
-            "CSAFPID-REL-29efde6b56e1",
-            "CSAFPID-REL-6db1aa3253df",
-            "CSAFPID-REL-9244d1bc9905",
             "CSAFPID-REL-9eb0d72f94f8",
-            "CSAFPID-REL-b50c5e8d73e0",
             "CSAFPID-REL-bb8ce4f8bf05",
             "CSAFPID-REL-da748cfa1498"
           ]
         }
       ],
       "threats": [
-        {
-          "category": "exploit_status",
-          "date": "2026-11-09T19:04:17Z",
-          "details": "not in CISA KEV as of 2026-11-10T01:47:11Z; EPSS 0.03061 (percentile 0.87703) as of 2026-11-09; point in time; re-issued when it changes",
-          "product_ids": [
-            "CSAFPID-REL-29efde6b56e1",
-            "CSAFPID-REL-6db1aa3253df",
-            "CSAFPID-REL-9244d1bc9905",
-            "CSAFPID-REL-b50c5e8d73e0"
-          ]
-        },
         {
           "category": "exploit_status",
           "date": "2026-11-10T01:47:11Z",
