@@ -1,0 +1,13 @@
+{
+ "current": "ct2-s2-rebuild-dev",
+ "latest": "latest-dev.openvex.json",
+ "records": [
+  "CLEANSTART-2026-KF32567",
+  "CLEANSTART-2026-LM00136",
+  "CLEANSTART-2026-SZ80622",
+  "CLEANSTART-2026-ZW80094"
+ ],
+ "run": "ct2-s2-rebuild-20261117T113301Z-dev",
+ "scan_recorded_at": "2026-11-17T11:33:08Z",
+ "schema": "cleanstart-publish-claim/1"
+}

@@ -1,0 +1,62 @@
+{
+ "component_location_source": "grype artifact.locations[].path",
+ "determined_at": "2026-11-18T05:09:40Z",
+ "index": {
+  "objects": {
+   "gs://cleanstart-emulation-public/clnpkgs/triam/aarch64/APKINDEX.tar.gz": [
+    {
+     "index_sha256": "4aa9ccf92ccf7f62f61fde3b79e6082ba4188c4fd5b0ccc3816fbbcdc82b939b",
+     "observed_at": "2026-11-18T05:02:41+0000"
+    }
+   ],
+   "gs://cleanstart-emulation-public/clnpkgs/triam/noarch/APKINDEX.tar.gz": [
+    {
+     "index_sha256": "7481b092320dddd90aca6af024a70c51996ff02b5289d0c8e0e0143a0364d52a",
+     "observed_at": "2026-11-18T05:02:41+0000"
+    }
+   ],
+   "gs://cleanstart-emulation-public/clnpkgs/triam/x86_64/APKINDEX.tar.gz": [
+    {
+     "index_sha256": "baad4f798ac6219d08bc136a6885a397a142cd7fff4233e32af7cca926ae26fc",
+     "observed_at": "2026-11-18T05:02:41+0000"
+    }
+   ]
+  },
+  "source": {
+   "path": "index-observations.ndjson",
+   "rows": 267,
+   "sha256": "613c0c594e114e823352f3cae783ae35f587ba26a230b17247b9a9c0a8553728"
+  }
+ },
+ "instrument": {
+  "binary_sha256": "sha256:d55ee2e71f9d66674a37f2afd3fcce87f3ad033730dc2f6d0fdf9c89b70b70e7",
+  "cleanstart_provider": true,
+  "db_built": "2026-11-18T00:52:05Z",
+  "db_schema": "v6.1.9",
+  "name": "grype",
+  "version": "cleanstart-bcb7f7176651"
+ },
+ "records": [
+  "CLEANSTART-2026-KF32567",
+  "CLEANSTART-2026-LM00136",
+  "CLEANSTART-2026-SZ80622",
+  "CLEANSTART-2026-ZW80094"
+ ],
+ "schema": "cleanstart-run-provenance/1",
+ "triage": {
+  "counts": {
+   "FIXED_BY_OUR_PATCH": 3,
+   "STILL_AFFECTED_NO_FIX": 1
+  },
+  "evaluation_overdue": [],
+  "upstream_ranges": {
+   "blobs_unparsed": 0,
+   "cves_asked": 1,
+   "cves_with_rows": 1,
+   "db_built": "2026-11-18T00:52:05Z",
+   "provider": "nvd",
+   "sha256": "sha256:444bc480a583adadbc7aed7f71958c3c9befbd57d9ef1233de7a8dff23fbcabc",
+   "source": "vulnerability.db"
+  }
+ }
+}

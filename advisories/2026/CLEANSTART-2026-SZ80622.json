@@ -5,7 +5,7 @@
   "CVE-2019-5021"
  ],
  "summary": "Security fix for CVE-2019-5021 applied in: cleanstart-baselayout 3.6.5-r1",
- "details": "shipped 3.6.5-r3 >= fixed 3.6.5-r1 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+ "details": "shipped 20241216-r2 >= fixed 3.6.5-r1 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
  "affected": [
   {
    "package": {
@@ -28,8 +28,8 @@
    ],
    "database_specific": {
     "status": "fixed",
-    "derivation": "shipped 3.6.5-r3 >= fixed 3.6.5-r1 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
-    "shipped_version": "3.6.5-r3",
+    "derivation": "shipped 20241216-r2 >= fixed 3.6.5-r1 (our recipe); ADV-500: carried from secdb -- the scan reported no finding for this origin/CVE",
+    "shipped_version": "20241216-r2",
     "severity": null,
     "source": "recipe",
     "component_location": {
@@ -94,7 +94,7 @@
       "latest_event_status": "fixed",
       "latest_event_timestamp": "2026-11-08T04:16:22Z",
       "component_name": "cleanstart-baselayout",
-      "component_version": "3.6.5-r3",
+      "component_version": "20241216-r2",
       "component_type": "apk",
       "component_location": "",
       "component_purl": "pkg:apk/cleanstart-baselayout"
@@ -119,7 +119,7 @@
   ]
  },
  "published": "2026-11-08T04:16:22Z",
- "modified": "2026-11-09T19:26:01Z",
+ "modified": "2026-11-18T05:09:25Z",
  "references": [
   {
    "type": "ADVISORY",
